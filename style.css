@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');
+:root {
+  --main-font: 'Inter', sans-serif;
+  --player-bg: #e4e2e2;
+  font-size: 62.5%;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: var(--main-font);
+  max-width: 100vw;
+  min-height: 100vh;
+}
+
+#player-container {
+  background-color: var(--player-bg);
+  width: 80%;
+  height: 90%;
+  max-width: 525px;
+  border-radius: 1em;
+  padding: 2rem;
+  margin: 3rem auto;
+}
+/* ============================ HEADER STYLES ============================*/
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.up-btn {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 0.5em;
+  display: grid;
+  place-items: center;
+  font-size: 2.5rem;
+  box-shadow: inset 5px 5px 8px 2px rgb(202, 198, 198);
+}
+header span {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 6rem;
+}
+
+#tr-btn {
+  color: red;
+}
+
+/* ============================ MAIN STYLES ============================*/
+
+img {
+  display: block;
+  object-fit: cover;
+  width: 35vw;
+  height: 35vw;
+  max-height: 35rem;
+  max-width: 35rem;
+  margin: 5em auto 2em;
+  border-radius: 50%;
+  box-shadow: -5px 5px 15px 1px rgb(99, 99, 99);
+}
+main span {
+  display: block;
+  text-align: center;
+}
+#track {
+  font-size: 2.3rem;
+}
+#artist {
+  font-size: 2.3rem;
+  font-weight: 800;
+  color: #7e7e7f;
+  margin-top: 0.75em;
+}
+#progress-bar-outer {
+  width: 90%;
+  height: 1.2em;
+  border: 1px solid rgba(185, 184, 184, 0.863);
+  border-radius: 1em;
+  margin: 2.5em auto 0;
+  background-color: rgb(255, 255, 255);
+}
+#progress-bar-inner {
+  height: 100%;
+  width: 70%;
+  background: linear-gradient(
+    90deg,
+    rgba(139, 201, 243, 1) 5%,
+    rgba(11, 140, 210, 1) 50%,
+    rgb(24, 227, 241) 100%
+  );
+}
+#ctrls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4em;
+}
+.down-btn {
+  height: 6rem;
+  width: 6rem;
+  display: grid;
+  place-items: center;
+  border-radius: 0.5em;
+  font-size: 3.5rem;
+}
+.rew-btn {
+  box-shadow: inset -2px 3px 2px 1px rgb(218, 217, 217),
+    -3px 3px 10px 1px rgb(197, 194, 194);
+}
+#play-btn {
+  color: rgb(25, 227, 242);
+  box-shadow: inset -2px 2px 15px 1px rgb(199, 197, 197);
+}
+
+/* ============================ FOOTER STYLES ============================*/
+footer div {
+  width: 55%;
+  height: 0.75rem;
+  border-radius: 1em;
+  margin: 8em auto 0;
+  box-shadow: inset -3px 3px 2px 1px rgb(153, 151, 151);
+}
