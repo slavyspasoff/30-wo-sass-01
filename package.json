@@ -1,0 +1,22 @@
+{
+  "name": "10-uib-layout-neumorphic-music-player-slavyspasoff",
+  "version": "1.0.0",
+  "description": "Let's polish up our UI skills and practice Flexbox layouts by creating the music player shown below -",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fbw-22-E03/10-uib-layout-neumorphic-music-player-slavyspasoff.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fbw-22-E03/10-uib-layout-neumorphic-music-player-slavyspasoff/issues"
+  },
+  "homepage": "https://github.com/Fbw-22-E03/10-uib-layout-neumorphic-music-player-slavyspasoff#readme",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
